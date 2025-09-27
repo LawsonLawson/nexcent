@@ -26,3 +26,11 @@ of Nexcent.
 
 - **HTML5** – for structure  
 - **CSS3** – for styling (Grid, Flexbox, responsive design techniques)
+
+## 📂 Project Structure
+
+```plaintext
+├── index.html       # Main HTML file
+├── style.css        # Main stylesheet
+├── /assets          # Images, icons, and fonts
+└── README.md        # Project documentation
