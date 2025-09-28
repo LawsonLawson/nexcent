@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+   padding: 0;
+}
+
+
+
+/* nav bar styling */
+.nav-container {
+    width: 100%;
+    height: 3.625rem;
+    border: 1px solid black;
+}
