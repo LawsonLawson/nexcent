@@ -3,11 +3,47 @@ body {
    padding: 0;
 }
 
-
-
-/* nav bar styling */
-.nav-container {
+nav {
     width: 100%;
     height: 3.625rem;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nexcent-icon-and-logo-container {
+    height: 1.5rem;
+    width: 8rem;
+    margin-left: 10rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.044rem;
+    padding-left: 11.25rem;
+}
+
+.nav-container {
+    display: flex;
+    width: 40.625rem;
+    height: 2.281rem;
+    margin-right: 10rem;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 0.174rem;
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    width: 7.078rem;
+    height: 2.156rem;
 }
