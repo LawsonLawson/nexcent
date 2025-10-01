@@ -24,6 +24,7 @@ nav {
     align-items: center;
     gap: 1.044rem;
     padding-left: 11.25rem;
+    list-style: none;
 }
 
 .nav-container {
