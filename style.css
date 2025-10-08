@@ -176,8 +176,8 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 0;
-    height: 17px;
-    width: 772.64px;
+    height: 1.063rem;
+    width: 48.29rem;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: regular;
@@ -188,3 +188,24 @@ nav {
     color: #717171;
 }
 
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logos-container {
+    height: 4.263rem;
+    width: 100%;
+    margin-left: 6.264rem;
+    margin-right: 6.264rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos-container > img {
+    width: 33.41px;
+    height: 33.41px;
+}
