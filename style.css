@@ -932,6 +932,11 @@ body {
 
 .footer .company-info .copyright {
     margin-top: 22.27px;
+
+}
+
+.footer .company-info .copyright .rights {
+    margin-top: 5.57px;
 }
 
 .footer .company-info .copyright p {
