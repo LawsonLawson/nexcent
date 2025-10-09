@@ -552,10 +552,6 @@ nav {
     align-self: center;
 }
 
-.achievements-comments .achievements-frame {
-
-}
-
 .achievements-frame {
     display: flex;
     align-items: center;
@@ -623,4 +619,135 @@ nav {
     width: 460.1px;
     height: 215.9px;
     margin-right: 100.23px;
+}
+
+
+.customers-section {
+    background-color: #F5F7FA;
+    width: 100%;
+    height: 271.47px;
+    margin-top: 33.41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.tesla-contatiner {
+    width: 226.92px;
+    height: 226.92px;
+    border-radius: 5.57px;
+    background-color: white;
+    box-shadow: 0px 5.57px 11.14px 0px rgba(171, 190, 209, 0.4);
+    margin-left: 100.23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tesla-frame-11 {
+    width: 520.66px;
+    height: 226.39px;
+    margin-right: 100.23px;
+}
+
+
+.tesla-frame-11 > #f-1 {
+    height: 117px;
+}
+
+
+.tesla-frame-11 > #f-1 > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 11.14px;
+    line-height: 16.71px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #717171;
+    margin: 0;
+}
+
+
+.tesla-frame-11 > #f-2 > #f-2-title {
+    height: 20px;
+    margin-top: 11.14px;
+}
+
+
+
+.tesla-frame-11 > #f-2 > .f-2-title > p {
+    color: #4CAF4F;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: semi-bold;
+    font-size: 13.92px;
+    line-height: 19.49px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+
+
+.tesla-frame-11 > #f-2 > .f-2-text {
+    height: 17px;
+    margin: 0;
+}
+
+
+
+.tesla-frame-11 > #f-2 > .f-2-text > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.14px;
+    line-height: 16.71px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #89939E;
+    margin-top: 5.57px;
+}
+
+
+.tesla-frame-11 > #f-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22.27px;
+}
+
+
+
+.tesla-frame-11 > #f-3 > .f-3-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 343.16px;
+    height: 33.41px;
+}
+
+
+
+.tesla-frame-11 > #f-3 > .meet-all-customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155.22px;
+    height: 31.14px;
+}
+
+
+
+.tesla-frame-11 > #f-3 > .meet-all-customers > p {
+    color: #4CAF4F;
+    font-size: 13.92px;
+    font-style: semi-bold;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    line-height: 19.49px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-align: center;
 }
