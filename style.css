@@ -1,10 +1,20 @@
-body {
-    padding: 0;
+/* BASE STYLING */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #333;
+    background-color: #FFFFFF;
 }
 
 
-nav {
+
+/* NAVIGATION BAR STYLING */
+.navigation-bar {
     display: flex;
     width: 100%;
     height: 3.625rem;
@@ -12,13 +22,11 @@ nav {
     align-items: center;
 }
 
-
-.logo-container {
+.nextcent-logo-container {
     height: 1.5rem;
     width: 8rem;
     margin-left: 6.264rem;
 }
-
 
 .controls-container {
     display: flex;
@@ -27,9 +35,7 @@ nav {
     width: 40.625rem;
     height: 2.281rem;
     margin-right: 6.264rem;
-    
 }
-
 
 .controls {
     display: flex;
@@ -46,7 +52,6 @@ nav {
     letter-spacing: 0%;
     align-items: center;
 }
-
 
 .button {
     border-radius: 0.174rem;
@@ -66,12 +71,12 @@ nav {
 }
 
 
+/* HERO SECTION STYLING */
 .hero-section {
     background-color: #F5F7FA;
     width: 100%;
     height: 26.056rem;
 }
-
 
 .frames {
     display: flex;
@@ -79,14 +84,12 @@ nav {
     align-content: center;
 }
 
-
 .elipse {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 2.5rem;
 }
-
 
 .frame_one_box_1 {
     height: 7.321rem;
@@ -103,11 +106,9 @@ nav {
     margin-bottom: 0;
 }
 
-
-.frame_one_box_1 > span {
+.frame_one_box_1>span {
     color: #4CAF4F;
 }
-
 
 .frame_one_box_2 {
     height: 1.063rem;
@@ -122,7 +123,6 @@ nav {
     font-style: regular;
     letter-spacing: 0%;
 }
-
 
 .frame_one_box_3 {
     width: 5.597rem;
@@ -141,7 +141,6 @@ nav {
     border: none;
 }
 
-
 .illustration_image {
     width: 17.01rem;
     height: 17.706rem;
@@ -150,19 +149,18 @@ nav {
 }
 
 
+/* CLIENTS SECTION STYLING */
 .properties {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
 .clients {
     width: 48.29rem;
     height: 3.336rem;
     margin-top: 1.74rem;
 }
-
 
 .client {
     display: flex;
@@ -179,7 +177,6 @@ nav {
     color: #4D4D4D;
     margin-bottom: 5.57px;
 }
-
 
 .text {
     display: flex;
@@ -198,13 +195,11 @@ nav {
     color: #717171;
 }
 
-
 .logo-section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .logos-container {
     height: 4.263rem;
@@ -216,18 +211,17 @@ nav {
     justify-content: space-between;
 }
 
-
-.logos-container > img {
+.logos-container>img {
     width: 33.41px;
     height: 33.41px;
 }
 
 
+/* COMMUNITY SECTION STYLING */
 .community {
     text-align: center;
     margin-top: 27.84px;
 }
-
 
 .property {
     font-family: "Inter", sans-serif;
@@ -240,7 +234,6 @@ nav {
     margin: 0;
 }
 
-
 .comment {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -252,7 +245,6 @@ nav {
     margin-top: 5.57px;
 }
 
-
 .frame-4 {
     width: 100%;
     height: 196.1px;
@@ -260,7 +252,6 @@ nav {
     justify-content: center;
     margin-top: 11.14px;
 }
-
 
 .frame-container {
     width: 100%;
@@ -273,15 +264,13 @@ nav {
 
 }
 
-
-.frame-container > div {
+.frame-container>div {
     height: 182.1px;
     width: 208.12px;
     border-radius: 5.57px;
     background-color: white;
     box-shadow: 0px 1.39px 2.78px 0px #ABBED133;
 }
-
 
 #inner-box {
     height: 101.12px;
@@ -293,14 +282,12 @@ nav {
     align-items: center;
 }
 
-
 #org-1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-
 
 #text-1 {
     display: flex;
@@ -310,7 +297,6 @@ nav {
     margin-top: 5.57px;
 }
 
-
 #text-2 {
     display: flex;
     justify-content: center;
@@ -318,7 +304,6 @@ nav {
     width: 167.06px;
     margin-top: 5.57px;
 }
-
 
 #text-3 {
     display: flex;
@@ -328,15 +313,13 @@ nav {
     margin-top: 5.57px;
 }
 
-
-.frame-container > .national-associations {
+.frame-container>.national-associations {
     height: 196.1px;
     width: 208.12px;
     border-radius: 5.57px;
 }
 
-
-#text-1 > p {
+#text-1>p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: Regular;
@@ -348,21 +331,7 @@ nav {
     margin: 0;
 }
 
-
-#text-2 > p {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 9.74px;
-    line-height: 13.92px;
-    letter-spacing: 0%;
-    color: #717171;
-    text-align: center;
-    margin: 0;   
-}
-
-
-#text-3 > p {
+#text-2>p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: Regular;
@@ -374,14 +343,24 @@ nav {
     margin: 0;
 }
 
+#text-3>p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 9.74px;
+    line-height: 13.92px;
+    letter-spacing: 0%;
+    color: #717171;
+    text-align: center;
+    margin: 0;
+}
 
-#inner-box > img {
+#inner-box>img {
     height: 38.98px;
     width: 45.24px;
 }
 
-
-#inner-box > p {
+#inner-box>p {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-style: Bold;
@@ -396,6 +375,8 @@ nav {
 }
 
 
+
+/* ABOUT SECTION STYLING */
 .unlock {
     width: 100%;
     height: 301.4px;
@@ -406,13 +387,11 @@ nav {
     flex-direction: row;
 }
 
-
 #frame-35 {
     width: 307.66px;
     height: 301.4px;
     margin-left: 100.23px;
 }
-
 
 #frame-6 {
     height: 187.9px;
@@ -420,8 +399,7 @@ nav {
     margin-right: 100.23px;
 }
 
-
-.frame-6-title > p {
+.frame-6-title>p {
     font-style: Semi-bold;
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -430,7 +408,6 @@ nav {
     color: #4D4D4D;
     margin: 0;
 }
-
 
 .frame-6-text {
     font-family: "Inter", sans-serif;
@@ -442,7 +419,6 @@ nav {
     color: #717171;
 }
 
-
 #frame-6 button {
     background-color: #4CAF4F;
     color: #FFFFFF;
@@ -453,8 +429,7 @@ nav {
     margin-top: 15.74px;
 }
 
-
-#frame-6 button > p {
+#frame-6 button>p {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-style: Medium;
@@ -468,6 +443,8 @@ nav {
 }
 
 
+
+/* ACHIEVEMENT SECTION STYLING */
 .achievements {
     background-color: #F5F7FA;
     width: 100%;
@@ -478,7 +455,6 @@ nav {
     align-items: center;
 }
 
-
 .achievements p {
     margin: 0;
 }
@@ -488,7 +464,6 @@ nav {
     height: 84.57px;
     margin-left: 100.23px;
 }
-
 
 .achievements-comments {
     width: 375.88px;
@@ -501,8 +476,7 @@ nav {
     height: 62px;
 }
 
-
-.achievements-properties-title > p {
+.achievements-properties-title>p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: semi-bold;
@@ -511,8 +485,7 @@ nav {
     letter-spacing: 0%;
 }
 
-
-.achievements-properties-title > p > span {
+.achievements-properties-title>p>span {
     color: #4CAF4F;
 }
 
@@ -526,7 +499,6 @@ nav {
     color: #18191F;
     margin-top: 5.57px;
 }
-
 
 .achievements-comments {
     display: grid;
@@ -543,7 +515,6 @@ nav {
     column-gap: 20.88px;
     margin: 0;
 }
-
 
 .achievements-comments .achievements-frame .pic-icon {
     height: 33.41px;
@@ -574,7 +545,6 @@ nav {
     width: 132.95px;
 }
 
-
 .achievements-comments .achievements-frame .number #figures {
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -584,7 +554,6 @@ nav {
     letter-spacing: 0%;
     color: #4D4D4D;
 }
-
 
 .achievements-comments .achievements-frame .number span {
     font-family: "Inter", sans-serif;
@@ -598,6 +567,8 @@ nav {
 }
 
 
+
+/* CALENDER SECTION STYLING */
 .calender {
     width: 100%;
     height: 301.68px;
@@ -607,13 +578,11 @@ nav {
     align-items: center;
 }
 
-
 .pana-image-container {
     width: 307.34px;
     height: 301.68px;
     margin-left: 100.23px;
 }
-
 
 .calender-frame-6 {
     width: 460.1px;
@@ -622,6 +591,8 @@ nav {
 }
 
 
+
+/* CUSTOMER SECTION STYLING */
 .customers-section {
     background-color: #F5F7FA;
     width: 100%;
@@ -631,7 +602,6 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .tesla-contatiner {
     width: 226.92px;
@@ -645,20 +615,17 @@ nav {
     align-items: center;
 }
 
-
 .tesla-frame-11 {
     width: 520.66px;
     height: 226.39px;
     margin-right: 100.23px;
 }
 
-
-.tesla-frame-11 > #f-1 {
+.tesla-frame-11>#f-1 {
     height: 117px;
 }
 
-
-.tesla-frame-11 > #f-1 > p {
+.tesla-frame-11>#f-1>p {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 11.14px;
@@ -669,15 +636,12 @@ nav {
     margin: 0;
 }
 
-
-.tesla-frame-11 > #f-2 > #f-2-title {
+.tesla-frame-11>#f-2>#f-2-title {
     height: 20px;
     margin-top: 11.14px;
 }
 
-
-
-.tesla-frame-11 > #f-2 > .f-2-title > p {
+.tesla-frame-11>#f-2>.f-2-title>p {
     color: #4CAF4F;
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -689,16 +653,12 @@ nav {
     margin-bottom: 0;
 }
 
-
-
-.tesla-frame-11 > #f-2 > .f-2-text {
+.tesla-frame-11>#f-2>.f-2-text {
     height: 17px;
     margin: 0;
 }
 
-
-
-.tesla-frame-11 > #f-2 > .f-2-text > p {
+.tesla-frame-11>#f-2>.f-2-text>p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: Regular;
@@ -710,17 +670,14 @@ nav {
     margin-top: 5.57px;
 }
 
-
-.tesla-frame-11 > #f-3 {
+.tesla-frame-11>#f-3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 22.27px;
 }
 
-
-
-.tesla-frame-11 > #f-3 > .f-3-logos {
+.tesla-frame-11>#f-3>.f-3-logos {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -728,9 +685,7 @@ nav {
     height: 33.41px;
 }
 
-
-
-.tesla-frame-11 > #f-3 > .meet-all-customers {
+.tesla-frame-11>#f-3>.meet-all-customers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -738,9 +693,7 @@ nav {
     height: 31.14px;
 }
 
-
-
-.tesla-frame-11 > #f-3 > .meet-all-customers > p {
+.tesla-frame-11>#f-3>.meet-all-customers>p {
     color: #4CAF4F;
     font-size: 13.92px;
     font-style: semi-bold;
@@ -754,6 +707,7 @@ nav {
 
 
 
+/* COMMUNITY UPDATES SECTION STYLING */
 .community_updates {
     height: 354.51px;
     width: 100%;
@@ -763,21 +717,17 @@ nav {
     justify-content: center;
 }
 
-
-
 .community-box-1 {
     width: 772.64px;
     height: 87.57px;
     align-self: center;
 }
 
-
 .community_updates .community-box-2 {
     width: 100%;
     height: 255.8px;
     margin-top: 11.14px;
 }
-
 
 .community_updates .community-box-1 .community-properties {
     height: 31px;
@@ -789,8 +739,7 @@ nav {
     margin-top: 33.41px;
 }
 
-
-.community_updates .community-box-1 .community-properties > .community-title {
+.community_updates .community-box-1 .community-properties>.community-title {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: semi-bold;
@@ -802,8 +751,7 @@ nav {
     margin: 0;
 }
 
-
-.community_updates .community-box-1 .community-properties > .community-text {
+.community_updates .community-box-1 .community-properties>.community-text {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: regular;
@@ -819,8 +767,6 @@ nav {
     margin: 0;
 }
 
-
-
 .community_updates .community-box-2 {
     height: 255.8px;
     width: 100%;
@@ -828,22 +774,15 @@ nav {
     justify-content: space-between;
 }
 
-
 .community_updates .community-box-2 #img-box-1 {
     width: 256.15px;
     height: 255.8px;
     position: relative;
 }
 
-
-
-
 .community_updates .community-box-2 #img-box-1 img {
     object-fit: cover;
 }
-
-
-
 
 .community_updates .community-box-2 #img-box-1 {
     width: 256.15px;
@@ -852,17 +791,14 @@ nav {
     margin-right: 100.23px;
 }
 
-
-.community_updates .community-box-2 #img-box-1 > #__1 {
+.community_updates .community-box-2 #img-box-1>#__1 {
     border-radius: 5.57px;
     height: 199.08px;
     width: 256.15px;
     margin: 0;
 }
 
-
-
-.community_updates .community-box-2  #__2 {
+.community_updates .community-box-2 #__2 {
     height: 123.55px;
     width: 220.65px;
     border-radius: 5.57px;
@@ -879,8 +815,7 @@ nav {
     align-items: center;
 }
 
-
-.community_updates .community-box-2  #__2 .__2_title p {
+.community_updates .community-box-2 #__2 .__2_title p {
     text-align: center;
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -895,9 +830,7 @@ nav {
     margin: 11.14px;
 }
 
-
-
-.community_updates .community-box-2  #__2 .__2_description p {
+.community_updates .community-box-2 #__2 .__2_description p {
     color: #4CAF4F;
     font-family: "Inter", sans-serif;
     font-weight: 600;
@@ -911,6 +844,8 @@ nav {
 }
 
 
+
+/* FRAME 16 STYLING */
 .frame-16 {
     width: 100%;
     background-color: #F5F7FA;
@@ -922,14 +857,13 @@ nav {
     align-items: center;
 }
 
-
 .frame-16 .frame-16-title {
     width: 617.41px;
     height: 106px;
     margin-top: 22.27px;
 }
 
-.frame-16 .frame-16-title > p {
+.frame-16 .frame-16-title>p {
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 44.55px;
@@ -941,8 +875,6 @@ nav {
     margin: 0;
 }
 
-
-
 .frame-16 button {
     margin-top: 22.27px;
     width: 124.25px;
@@ -951,8 +883,6 @@ nav {
     background-color: #4CAF4F;
     border: none;
 }
-
-
 
 .frame-16 button p {
     color: #FFFFFF;
@@ -967,6 +897,8 @@ nav {
 }
 
 
+
+/* FOOTER STYLING */
 .footer {
     background-color: #263238;
     width: 100%;
@@ -983,31 +915,24 @@ nav {
     margin-left: 114.85px;
 }
 
-
 .footer .company-links {
     height: 140.12px;
     width: 442px;
     margin-right: 114.85px;
 }
 
-
-
 .footer .company-info .nexcent-logo {
     height: 20.65px;
     width: 132.95px;
 }
 
-
-
 .footer .company-info .nexcent-logo img {
     background-image: none;
 }
 
-
 .footer .company-info .copyright {
     margin-top: 22.27px;
 }
-
 
 .footer .company-info .copyright p {
     color: #F5F7FA;
@@ -1022,7 +947,6 @@ nav {
     margin-top: 5.57;
 }
 
-
 .footer .company-info .social-links {
     width: 122.51px;
     height: 22.27px;
@@ -1032,13 +956,10 @@ nav {
     align-items: center;
 }
 
-
 .company-links {
     display: flex;
     flex-direction: row;
 }
-
-
 
 .company-links .company {
     width: 111.37px;
@@ -1059,11 +980,9 @@ nav {
     height: 20px;
 }
 
-
-.company-links > .support {
+.company-links>.support {
     margin-left: 20.88px;
 }
-
 
 .company-links .stay-up-to-date {
     height: 64.55px;
@@ -1085,7 +1004,6 @@ nav {
     margin-top: 8.35px;
 }
 
-
 .stay-up-to-date ._name {
     margin-top: 0;
     margin-bottom: 16.71px;
@@ -1100,7 +1018,6 @@ nav {
     height: 20px;
 }
 
-
 .stay-up-to-date .email-container {
     display: flex;
     justify-content: space-between;
@@ -1111,8 +1028,7 @@ nav {
     border-radius: 5.57px;
 }
 
-
-.stay-up-to-date .email-container > p {
+.stay-up-to-date .email-container>p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: Regular;
@@ -1123,8 +1039,7 @@ nav {
     margin-left: 8.35px;
 }
 
-
-.stay-up-to-date .email-container > img {
+.stay-up-to-date .email-container>img {
     margin-right: 8.35px;
     color: #D9DBE1;
 }
